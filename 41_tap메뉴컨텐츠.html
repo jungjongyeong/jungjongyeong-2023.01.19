@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tab메뉴컨텐츠.css">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(function(){
+            $(".tabTitle > li").eq(0).click(function(){
+                $(".car1").toggleClass("active");
+            })
+            $(".tabTitle > li").eq(1).click(function(){
+                $(".car2").toggleClass("active");
+            })
+            $(".tabTitle > li").eq(2).click(function(){
+                $(".car4").toggleClass("active");
+            })
+            $(".tabTitle > li").eq(3).click(function(){
+                $(".car4").toggleClass("active");
+            })
+        })
+    </script>
+    <style>
+        * { padding:0; margin:0; box-sizing: border-box;}
+        ul { list-style: none;}
+        .box { max-width: 300px; margin:50px auto;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul class="tabTitle">
+            <li class="active">빨간색</li>
+            <li>노란색</li>
+            <li>초록색</li>
+            <li>연두색</li>
+        </ul>
+        <div class="contents">
+            <div class="car1"><img src="./img/car1.jpg" alt=""></div>
+            <div class="car2"><img src="./img/car2.jpg" alt=""></div>
+            <div class="car3"><img src="./img/car3.jpg" alt=""></div>
+            <div class="car4"><img src="./img/car4.jpg" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>

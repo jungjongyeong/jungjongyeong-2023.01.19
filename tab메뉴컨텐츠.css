@@ -1,0 +1,83 @@
+.box {
+    font-size: 16px;
+}
+
+.box .tabTitle {
+    overflow: hidden;
+}
+
+.box .tabTitle li {
+    display: inline-block;
+    border: 1px solid #000;
+    float: left;
+    border-right: none;
+}
+
+.box .tabTitle li.active {
+    background: red;
+    color: #fff;
+}
+
+.box .tabTitle li:nth-child(2):hover {
+    background: yellow;
+    color: #fff;
+}
+
+.box .tabTitle li:nth-child(3):hover {
+    background: green;
+    color: #fff;
+}
+
+.box .tabTitle li:nth-child(4):hover {
+    background-color: chartreuse
+}
+
+.box .tabTitle li:nth-child(4) {
+    border-right: 1px solid #000;
+}
+
+.box .tabTitle>div {
+    display: none;
+}
+.box .contents > div{ display: none;}
+.box .contents > div.active { display: block;}
+
+
+/* box2 */
+.box2 .tabTitle {
+    display: flex;
+    background: #ddd;
+    width:500px;
+    border-top:1px solid #b4afaf;
+    border-right:1px solid #b4afaf;
+    
+}
+
+.box2 .tabTitle>li {
+
+    border-right: 1px solid #b4afaf;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding:10px 0;
+    font-size:14px;
+    font-weight: 600;
+}
+.box2 .tabTitle li:nth-child(2) { background-color: #fff; }
+.box2 .tabTitle li:nth-child(4) { border-right:none}
+.box2 .tabimfo li{
+    display: inline-block;
+    font-size:13px; width:140px; height:50px;
+    padding: 50px 0px 0 40px;
+}
+.box2 .imfo1 > li:nth-child(1) { background:url(../국세청/img_0.png) no-repeat center;}
+.box2 .imfo1 > li:nth-child(2) { background:url(../국세청/img_1.png) no-repeat center;}
+.box2 .imfo1 > li:nth-child(3) { background:url(../국세청/img_2.png) no-repeat center;}
+.box2 .imfo1 > li:nth-child(4) { background:url(../국세청/img_3.png) no-repeat center;}
+.box2 .imfo1 > li:nth-child(5) { background:url(../국세청/img_4.png) no-repeat center;}
+.box2 .imfo2 > li:nth-child(1) { background:url(../국세청/img_5.png) no-repeat center;}
+.box2 .imfo2 > li:nth-child(2) { background:url(../국세청/img_6.png) no-repeat center;}
+.box2 .imfo2 > li:nth-child(3) { background:url(../국세청/img_7.png) no-repeat center;}
+.box2 .imfo2 > li:nth-child(4) { background:url(../국세청/img_8.png) no-repeat center;}
+.box2 .imfo2 > li:nth-child(5) { background:url(../국세청/img_9.png) no-repeat center;}
